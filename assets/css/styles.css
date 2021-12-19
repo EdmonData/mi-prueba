@@ -1,6 +1,16 @@
-body{
+ body{
     margin: 0px;
     padding: 0px;
     border: 0;
+    background-color: #000000;
+    color: #ffffff;
 }
 
+.fondo_color{
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+footer i {
+    padding: 0px 20px;
+    padding-top: 10px;
+} 
