@@ -39,39 +39,30 @@ footer a {
   background-color: rgba(0, 0, 0, 0.233);
 }
 
-
-.imagen1 {
-  background-image: url("/assets/img/card1.jpg");
+.imagen {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 180px;
+}
+
+.imagen1 {
+  background-image: url("/assets/img/card1.jpg");
+
 }
 
 .imagen2 {
   background-image: url("/assets/img/card2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 180px;
+ 
 }
 
 .imagen3 {
   background-image: url("/assets/img/card3.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 180px;
+
 }
 
 .imagen4 {
   background-image: url("/assets/img/card4.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 180px;
+
 }

@@ -6,8 +6,10 @@ $(function () {
     $('#exampleModalScrollable').modal('show');
   })
 
-   $('.card-body').mouseover(function () {
-    $(this).css('background-color') == 'rgb(23, 162, 184)'
-      ? $(this).css('background-color', 'rgba(197, 90, 90)')
-      : $(this).css('background-color', 'rgb(23, 162, 184)');
+   $('.imagen').mouseover(function () {
+    $(this).css('opacity', 0.5)
+  });
+
+  $('.imagen').mouseleave(function () {
+    $(this).css('opacity', 1)
   });
