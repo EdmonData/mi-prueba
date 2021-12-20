@@ -2,7 +2,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
 
-  $('#contacto').click(function(){
+  $('#btn-contactos').click(function(){
     $('#exampleModalScrollable').modal('show');
   })
 
