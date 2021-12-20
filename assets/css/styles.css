@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -5,26 +8,36 @@ body {
   background-color: #000000;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
+ 
 }
 
-h4{
-    font-family: 'Orbitron', sans-serif;
-    font-size: 35px;
-    padding-top: 8px;
+h1{
+  font-family: "Orbitron", sans-serif;
+  font-size: 45px;
+}
+
+h4 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 35px;
+  padding-top: 8px;
 }
 footer i {
-    padding: 0px 20px;
-    padding-top: 10px;
-  }
+  padding: 0px 20px;
+  padding-top: 10px;
+}
 
-.navbar-brand{
-    font-family: 'Orbitron', sans-serif;
-}  
+footer a {
+
+  color: #ffffff;
+}
+.navbar-brand {
+  font-family: "Orbitron", sans-serif;
+}
+
 
 .fondo_color {
   background-color: rgba(0, 0, 0, 0.233);
 }
-
 
 
 .imagen1 {
