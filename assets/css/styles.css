@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -8,10 +8,9 @@ body {
   background-color: #000000;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
- 
 }
 
-h1{
+h1 {
   font-family: "Orbitron", sans-serif;
   font-size: 45px;
 }
@@ -27,13 +26,11 @@ footer i {
 }
 
 footer a {
-
   color: #ffffff;
 }
 .navbar-brand {
   font-family: "Orbitron", sans-serif;
 }
-
 
 .fondo_color {
   background-color: rgba(0, 0, 0, 0.233);
@@ -49,20 +46,32 @@ footer a {
 
 .imagen1 {
   background-image: url("../../assets/img/card1.jpg");
-
 }
 
 .imagen2 {
   background-image: url("../../assets/img/card2.jpg");
- 
 }
 
 .imagen3 {
   background-image: url("../../assets/img/card3.jpg");
-
 }
 
 .imagen4 {
   background-image: url("../../assets/img/card4.jpg");
+}
 
+@media (max-width: 575.98px) {
+  .desaparecer {
+   /*  visibility: hidden; */
+   display: none;
+  }
+  h4 {
+    font-size: 25px;
+    }
+    .fab {
+      font-size: 25px;
+      margin: 0px;
+      padding: 10px;
+  }
+  
 }
